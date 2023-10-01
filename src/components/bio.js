@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from "react";
+import clubData from '../personalDatas.json';
 
 const Bios = () => {
-  const allTexts = [
-    "I am Arijit Chakma.",
-    "I am a sophomore at Drexel University majoring in CS and a minor in Math.",
-    "I am an aspiring software engineer.",
-    "I am a machine learning enthusiast.",
-    "I am an average food enjoyer, dog lover."
-  ];
+  const allTexts = clubData.main.descriptions;
 
   const [text, setText] = useState("");
   const [currentTextIndex, setCurrentIndex] = useState(0);

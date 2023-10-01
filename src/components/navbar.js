@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function Navbar({ isDarkMode, toggleDarkMode }) {
+function Navbar({ isDarkMode, toggleDarkMode, name }) {
   // CSS classes for dark and light modes
-  const navbarClasses = `py-2 h-16 px-4 flex justify-between items-center  ${
+  const navbarClasses = `py-2 h-16 px-4 flex justify-between items-center   ${
     isDarkMode
       ? 'bg-gray-900 text-white shadow-lg'
       : 'bg-gray-white text-gray-900 shadow-md'
@@ -21,7 +21,7 @@ function Navbar({ isDarkMode, toggleDarkMode }) {
   return (
     <div className={navbarClasses}>
       <NavLink to={'/'} className="text-3xl px-4 font-bold" style={textStyle}>
-        Arijit Chakma
+        {name}
       </NavLink>
       <ul className="space-x-8">
         <li className="inline-block">

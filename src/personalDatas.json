@@ -1,0 +1,112 @@
+{
+    "main": {
+      "name": "Arijit Chakma",
+      "descriptions": [
+        "I am Arijit Chakma.",
+        "I am a sophomore at Drexel University majoring in CS and a minor in Math.",
+        "I am an aspiring software engineer.",
+        "I am a machine learning enthusiast.",
+        "I am an average food enjoyer, dog lover."
+      ],
+      "image": "./components/myImage.jpg",
+      "socials": {
+        "github": "https://github.com/arijitchakma79",
+        "linkedin": "https://www.linkedin.com/in/arijit-chakma-906a59240/",
+        "facebook": "https://www.facebook.com/arijit.chakma.56?mibextid=LQQJ4d",
+        "instagram": "https://www.instagram.com/80asfluffshi/",
+        "slack": "https://drexel-ai.slack.com/team/U044C1G19V4"
+      },
+      "education": "Drexel University",
+      "major": "Bachelor of Computer Science",
+      "concentrations": "Artificial Intelligence and Software Engineering",
+      "minor": "Mathematics",
+      "start": "September 2022",
+      "end": "July 2027",
+      "relavant_courseworks": ["Mulivariable Calculus"],
+      "awards": {
+        "1": {
+          "name": "Drexel Global Scholarship",
+          "description": "Full ride Scholarship given to 13 international student in 2022.",
+          "awardedYear": "2022"
+        },
+        "2": {
+          "name": "Dean's List 2023",
+          "description": "Awarded for outstanding academic performance and a GPA over 3.70",
+          "awardedYear": "2023"
+        }
+      },
+      "projects": [
+         {
+          "name": "ThriftHub",
+          "image": "../images/thriftHub.png",
+          "date": "August 2023",
+          "description": "A personal finance tracker website to keep expenses on track.",
+          "githubLink": "https://github.com/arijitchakma79/ThriftHub",
+          "skills": ["MERN", "Firebase", "Full-Stack", "HTML", "TailwindCSS", "JavaScript"]
+        },
+         {
+          "name": "Drexel's AI Website",
+          "description": "A website for Drexel's AI club.",
+          "githubLink": "https://github.com/arijitchakma79/Drexel-AI-Website",
+          "skills": ["React", "HTML", "CSS", "JavaScript"]
+        },
+        {
+          "name": "Bullet Hell",
+          "description": "A bullet hell game made with Godot and GDscript.",
+          "githubLink": "https://github.com/arijitchakma79/bullet-hell",
+          "skills": ["Godot", "GDscript"]
+        }
+      ],
+      "skills": {
+        "1": {
+          "name": "Python",
+          "image": "null"
+        },
+        "2": {
+          "name": "JavaScript",
+          "image": "null"
+        },
+        "3": {
+          "name": "C++",
+          "image": "null"
+        },
+        "4": {
+          "name": "Java",
+          "image": "null"
+        },
+        "5": {
+          "name": "HTML",
+          "image": "null"
+        },
+        "6": {
+          "name": "CSS",
+          "image": "null"
+        },
+        "7": {
+          "name": "React",
+          "image": "null"
+        },
+        "8": {
+          "name": "Node.js",
+          "image": "null"
+        },
+        "9": {
+          "name": "MongoDB",
+          "image": "null"
+        },
+        "10": {
+          "name": "Firebase",
+          "image": "null"
+        },
+        "11": {
+          "name": "TailwindCSS",
+          "image": "null"
+        },
+        "12": {
+          "name": "Git",
+          "image": "null"
+        }
+      }
+    }
+  }
+  

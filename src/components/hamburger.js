@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-function HamburgerMenu() {
+function HamburgerMenu({name}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -39,7 +39,7 @@ function HamburgerMenu() {
             className="hover:underline hover:text-blue-900"
             onClick={toggleMenu} // Close the menu when a link is clicked
           >
-            <p style={textStyle} className='text-xl text-white'>Arijit Chakma</p>
+            <p style={textStyle} className='text-xl text-white'>{name}</p>
           </NavLink>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import clubData from '../personalDatas.json'
 
 const AboutMe = ({ isDarkMode }) => {
   // Define styles based on dark mode
@@ -13,8 +14,7 @@ const AboutMe = ({ isDarkMode }) => {
     <div className={`w-4/5 sm:w-100 mx-auto ${isDarkMode ? 'bg-gray-800' : 'bg-white text-gray-900'}`} style={textStyle}>
       <h1 className="text-2xl md:text-4xl lg:text-4xl">Hey there!</h1>
       <p className="text-md md:text-lg leading-relaxed py-4">
-        My name is Arijit Chakma. I am currently a sophomore at Drexel University, where I'm majoring in Computer Science with a focus on Artificial Intelligence and Software Engineering.
-        Despite my initial lack of coding experience, I quickly found myself drawn to the world of computer science, and I've since become passionate about various aspects, 
+        My name is {clubData.main.name}. Despite my initial lack of coding experience, I quickly found myself drawn to the world of computer science, and I've since become passionate about various aspects, 
         including Software Engineering, AI/ML, and Data Science.</p>
         <p className="text-md md:text-lg leading-relaxed py-2">
         What sets me apart is not just my academic pursuits, but also my vision for the future. 
