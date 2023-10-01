@@ -5,3 +5,6 @@ export {default as HamburgerMenu} from './hamburger';
 export {default as AboutMe} from './aboutMe';
 export {default as Footer} from './footer';
 export {default as ProjectBox} from './projectBox';
+export {default as SkillBox} from './skillBox';
+export {default as Award} from './award';
+export {default as DownloadResume} from './downloadResume';

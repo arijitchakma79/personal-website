@@ -29,11 +29,43 @@ const ProjectPage = ({ isDark }) => {
       "description": "A bullet hell game made with Godot and GDscript.",
       "githubLink": "https://github.com/arijitchakma79/bullet-hell",
       "skills": ["Godot", "GDscript"]
+    },
+    {
+      "name": "Bullet Hell",
+      "image": bulletHellImage,
+      "date": "May 2023",
+      "description": "A bullet hell game made with Godot and GDscript.",
+      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
+      "skills": ["Godot", "GDscript"]
+    },
+    {
+      "name": "Bullet Hell",
+      "image": bulletHellImage,
+      "date": "May 2023",
+      "description": "A bullet hell game made with Godot and GDscript.",
+      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
+      "skills": ["Godot", "GDscript"]
+    },
+    {
+      "name": "Bullet Hell",
+      "image": bulletHellImage,
+      "date": "May 2023",
+      "description": "A bullet hell game made with Godot and GDscript.",
+      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
+      "skills": ["Godot", "GDscript"]
+    },
+    {
+      "name": "Bullet Hell",
+      "image": bulletHellImage,
+      "date": "May 2023",
+      "description": "A bullet hell game made with Godot and GDscript.",
+      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
+      "skills": ["Godot", "GDscript"]
     }
   ];
 
   return (
-    <div className={`w-full h-screen ${isDark ? 'bg-gray-800' : 'bg-white'}`}>
+    <div className={`w-full ${isDark ? 'bg-gray-800' : 'bg-white'}`} style={{ minHeight: '90vh' }}>
       <div className="project-page w-4/5 mx-auto py-16">
         <div className="flex flex-wrap ">
           {projectData.map((project, index) => (

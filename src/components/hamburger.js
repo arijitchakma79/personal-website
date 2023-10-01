@@ -34,18 +34,21 @@ function HamburgerMenu({name}) {
           &#9776;
         </button>
         <div className='flex items-center justify-center px-24'>
-          <NavLink
-            to="/"
-            className="hover:underline hover:text-blue-900"
-            onClick={toggleMenu} // Close the menu when a link is clicked
-          >
-            <p style={textStyle} className='text-xl text-white'>{name}</p>
-          </NavLink>
+            <p style={textStyle} className='text-md text-white'>{name}</p>
         </div>
       </div>
       {isMenuOpen && (
         <div className="fixed w-full bg-gray-900 border-t shadow-md p-2 block">
           <ul className="block justify-center text-center">
+            <li className="mx-4">
+                <NavLink
+                  to="/"
+                  className="text-white hover:underline"
+                  onClick={toggleMenu} // Close the menu when a link is clicked
+                >
+                  Home
+                </NavLink>
+            </li>
             <li className="mx-4">
               <NavLink
                 to="/projects"
@@ -62,15 +65,6 @@ function HamburgerMenu({name}) {
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
                 Resume
-              </NavLink>
-            </li>
-            <li className="mx-4">
-              <NavLink
-                to="/contact"
-                className="text-white hover:underline"
-                onClick={toggleMenu} // Close the menu when a link is clicked
-              >
-                Contact Me
               </NavLink>
             </li>
           </ul>

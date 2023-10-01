@@ -46,8 +46,8 @@ const Bios = () => {
   }, [currentTextIndex, isReversing]);
 
   return (
-    <div className="py-8 md:py-32 md:px-20 lg:py-52">
-      <p className="text-2xl md:text-3xl lg:text-5xl">
+    <div className="py-8 px-8 md:py-32 md:px-20 lg:py-52">
+      <p className="text-2xl md:text-3xl lg:text-5xl ">
         Hello, {text}
       </p>
     </div>

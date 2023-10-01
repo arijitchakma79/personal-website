@@ -20,10 +20,15 @@ function Navbar({ isDarkMode, toggleDarkMode, name }) {
 
   return (
     <div className={navbarClasses}>
-      <NavLink to={'/'} className="text-3xl px-4 font-bold" style={textStyle}>
-        {name}
-      </NavLink>
-      <ul className="space-x-8">
+      
+       <h1 className="text-3xl px-4 font-bold" style={textStyle}>{name}</h1>
+      
+      <ul className="space-x-16">
+        <li className="inline-block">
+          <NavLink to={'/'} className="hover:underline text-xl " style={textStyle}>
+            Home
+          </NavLink>
+        </li>
         <li className="inline-block">
           <NavLink to={'/projects'} className="hover:underline text-xl " style={textStyle}>
             Projects
@@ -32,11 +37,6 @@ function Navbar({ isDarkMode, toggleDarkMode, name }) {
         <li className="inline-block">
           <NavLink to={'/resume'} className="hover:underline text-xl " style={textStyle}>
             Resume
-          </NavLink>
-        </li>
-        <li className="inline-block">
-          <NavLink to={'/contact'} className="hover:underline text-xl" style={textStyle}>
-            Contact Me
           </NavLink>
         </li>
       </ul>
