@@ -25,17 +25,17 @@ function Navbar({ isDarkMode, toggleDarkMode, name }) {
       
       <ul className="space-x-16">
         <li className="inline-block">
-          <NavLink to={'/'} className="hover:underline text-xl " style={textStyle}>
+          <NavLink to={'/personal-website/'} className="hover:underline text-xl " style={textStyle}>
             Home
           </NavLink>
         </li>
         <li className="inline-block">
-          <NavLink to={'/projects'} className="hover:underline text-xl " style={textStyle}>
+          <NavLink to={'/personal-website/projects'} className="hover:underline text-xl " style={textStyle}>
             Projects
           </NavLink>
         </li>
         <li className="inline-block">
-          <NavLink to={'/resume'} className="hover:underline text-xl " style={textStyle}>
+          <NavLink to={'/personal-website/resume'} className="hover:underline text-xl " style={textStyle}>
             Resume
           </NavLink>
         </li>
