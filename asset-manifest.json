@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.047ce8ca.css",
-    "main.js": "/static/js/main.616d9986.js",
-    "static/media/drexelAi.png": "/static/media/drexelAi.3766f2d04a359982fd75.png",
-    "static/media/myImage.jpg": "/static/media/myImage.758b27e4a43db14c4975.jpg",
-    "static/media/thriftHub.png": "/static/media/thriftHub.5c229c3dec9eebc7320b.png",
-    "static/media/DrexelLogo.png": "/static/media/DrexelLogo.218a4c093b232457b2b8.png",
-    "static/media/mongoDB.png": "/static/media/mongoDB.e42d28391597ae82e2ca.png",
-    "static/media/ArijitChakmaResume.pdf": "/static/media/ArijitChakmaResume.3cdcff95417245caada9.pdf",
-    "static/media/React.png": "/static/media/React.1ce7b597e7ddb0fccde3.png",
-    "static/media/python.png": "/static/media/python.3e8a90f52b67ce17a3f4.png",
-    "static/media/Java.png": "/static/media/Java.157cd8797d7faae18e95.png",
-    "static/media/node.jpg": "/static/media/node.bc4b43cd5f20ba305059.jpg",
-    "static/media/bulletHell.png": "/static/media/bulletHell.85e97e09d77c4d7178e2.png",
-    "static/media/git.png": "/static/media/git.dcc8b2cb95d1b1261574.png",
-    "static/media/JavaScript.png": "/static/media/JavaScript.63cbfafdcf1063d82a23.png",
-    "static/media/Cpp.png": "/static/media/Cpp.ccf711d17ee9e16c8728.png",
-    "index.html": "/index.html",
-    "main.047ce8ca.css.map": "/static/css/main.047ce8ca.css.map",
-    "main.616d9986.js.map": "/static/js/main.616d9986.js.map"
+    "main.css": "/personal-website/static/css/main.047ce8ca.css",
+    "main.js": "/personal-website/static/js/main.a0184a59.js",
+    "static/media/drexelAi.png": "/personal-website/static/media/drexelAi.3766f2d04a359982fd75.png",
+    "static/media/myImage.jpg": "/personal-website/static/media/myImage.758b27e4a43db14c4975.jpg",
+    "static/media/thriftHub.png": "/personal-website/static/media/thriftHub.5c229c3dec9eebc7320b.png",
+    "static/media/DrexelLogo.png": "/personal-website/static/media/DrexelLogo.218a4c093b232457b2b8.png",
+    "static/media/mongoDB.png": "/personal-website/static/media/mongoDB.e42d28391597ae82e2ca.png",
+    "static/media/ArijitChakmaResume.pdf": "/personal-website/static/media/ArijitChakmaResume.3cdcff95417245caada9.pdf",
+    "static/media/React.png": "/personal-website/static/media/React.1ce7b597e7ddb0fccde3.png",
+    "static/media/python.png": "/personal-website/static/media/python.3e8a90f52b67ce17a3f4.png",
+    "static/media/Java.png": "/personal-website/static/media/Java.157cd8797d7faae18e95.png",
+    "static/media/node.jpg": "/personal-website/static/media/node.bc4b43cd5f20ba305059.jpg",
+    "static/media/bulletHell.png": "/personal-website/static/media/bulletHell.85e97e09d77c4d7178e2.png",
+    "static/media/git.png": "/personal-website/static/media/git.dcc8b2cb95d1b1261574.png",
+    "static/media/JavaScript.png": "/personal-website/static/media/JavaScript.63cbfafdcf1063d82a23.png",
+    "static/media/Cpp.png": "/personal-website/static/media/Cpp.ccf711d17ee9e16c8728.png",
+    "index.html": "/personal-website/index.html",
+    "main.047ce8ca.css.map": "/personal-website/static/css/main.047ce8ca.css.map",
+    "main.a0184a59.js.map": "/personal-website/static/js/main.a0184a59.js.map"
   },
   "entrypoints": [
     "static/css/main.047ce8ca.css",
-    "static/js/main.616d9986.js"
+    "static/js/main.a0184a59.js"
   ]
 }
