@@ -51,7 +51,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             <li className="mx-4">
                 <NavLink
                   to="/personal-website/"
-                  className={`text-md ${menuTextColorClass} hover:underline`}
+                  className={`text-md ${isDarkMode ? "text-gray-800" : "text-gray-800"} hover:underline`}
                   onClick={toggleMenu} // Close the menu when a link is clicked
                 >
                   Home
@@ -60,7 +60,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             <li className="mx-4">
               <NavLink
                 to="/personal-website/projects"
-                className={`text-md ${menuTextColorClass} hover:underline`}
+                className={`text-md ${isDarkMode ? "text-gray-800" : "text-gray-800"} hover:underline`}
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
                 Projects
@@ -69,7 +69,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             <li className="mx-4">
               <NavLink
                 to="/personal-website/resume"
-                className={`text-md ${menuTextColorClass} hover:underline`}
+                className={`text-md ${isDarkMode ? "text-gray-800" : "text-gray-800"} hover:underline`}
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
                 Resume
