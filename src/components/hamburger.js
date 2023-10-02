@@ -12,11 +12,11 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
   // CSS class for the container div
   const containerClass = isMenuOpen
     ? 'relative h-auto bg-gray-900'
-    : 'relative bg-gray-700'; // Set the height to auto when the menu is open
+    : 'relative bg-gray-900'; // Set the height to auto when the menu is open
 
   // Define the text color classes based on isDarkMode
-  const menuTextColorClass = isDarkMode ? 'text-white' : 'text-gray-800';
-  const darkModeTextColorClass = isDarkMode ? 'text-gray-800' : 'text-white';
+  const menuTextColorClass = isDarkMode ? 'text-white' : 'text-white';
+  const darkModeTextColorClass = isDarkMode ? 'text-white' : 'text-white';
 
   const textStyle = {
     fontFamily: "'Mulish', sans-serif",
@@ -27,15 +27,15 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
       <div className='flex'>
         <button
           onClick={toggleMenu}
-          className={`block p-2 text-xl text-gray-200 ${menuTextColorClass} hover:text-white`}
+          className={`block p-2 text-xl  ${menuTextColorClass} hover:text-white`}
         >
           &#9776;
         </button>
         <div className='flex items-center justify-center px-24'>
-            <p style={textStyle} className={`text-md text-gray-200 ${menuTextColorClass}`}>{name}</p>
+            <p style={textStyle} className={`text-sm ${menuTextColorClass}`}>{name}</p>
         </div>
         <div className="flex ml-auto items-center">
-          <div className={`border ${isDarkMode ? 'border-white' : 'border-gray-800'} rounded-md ml-2 px-2`}>
+          <div className={`border ${isDarkMode ? 'border-white' : 'border-white'} rounded-3xl ml-2 px-2`}>
             <button
               onClick={toggleDarkMode}
               className={`block p-2 text-md ${darkModeTextColorClass} hover:text-white`}
