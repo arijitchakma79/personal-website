@@ -30,38 +30,7 @@ const ProjectPage = ({ isDark }) => {
       "githubLink": "https://github.com/arijitchakma79/bullet-hell",
       "skills": ["Godot", "GDscript"]
     },
-    {
-      "name": "Bullet Hell",
-      "image": bulletHellImage,
-      "date": "May 2023",
-      "description": "A bullet hell game made with Godot and GDscript.",
-      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
-      "skills": ["Godot", "GDscript"]
-    },
-    {
-      "name": "Bullet Hell",
-      "image": bulletHellImage,
-      "date": "May 2023",
-      "description": "A bullet hell game made with Godot and GDscript.",
-      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
-      "skills": ["Godot", "GDscript"]
-    },
-    {
-      "name": "Bullet Hell",
-      "image": bulletHellImage,
-      "date": "May 2023",
-      "description": "A bullet hell game made with Godot and GDscript.",
-      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
-      "skills": ["Godot", "GDscript"]
-    },
-    {
-      "name": "Bullet Hell",
-      "image": bulletHellImage,
-      "date": "May 2023",
-      "description": "A bullet hell game made with Godot and GDscript.",
-      "githubLink": "https://github.com/arijitchakma79/bullet-hell",
-      "skills": ["Godot", "GDscript"]
-    }
+  
   ];
 
   return (

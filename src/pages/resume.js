@@ -22,7 +22,7 @@ const ResumePage = ({ isDark }) => {
   const awards = {
     "1": {
       "name": "Drexel Global Scholarship",
-      "description": "Full ride Scholarship given to 13 international students in 2022.",
+      "description": "One of 13 international students who was awarded this full-ride scholarship in 2022 for excellent academic achievements and service to the community.",
       "awardedYear": "2022"
     },
     "2": {

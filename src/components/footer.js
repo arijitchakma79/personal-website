@@ -15,6 +15,9 @@ const Footer = ({ isDarkMode }) => {
     ? 'bg-gray-800 text-white py-6'
     : 'bg-white text-gray-900 py-6';
 
+  // Define your email address
+  const emailAddress = 'arijit.chakma@drexel.edu';
+
   return (
     <footer className={footerClasses}>
       <div className="container mx-auto flex flex-col items-center">
@@ -76,6 +79,9 @@ const Footer = ({ isDarkMode }) => {
             />
           </a>
         </div>
+        <p className="text-md font-bold pb-4">
+          Email at <a href={`mailto:${emailAddress}`} className="text-blue-500">{emailAddress}</a>
+        </p>
         <p className="text-sm">
           Created by Arijit Chakma &copy; {new Date().getFullYear()}
         </p>

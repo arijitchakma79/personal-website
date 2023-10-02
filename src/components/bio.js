@@ -9,6 +9,8 @@ const Bios = () => {
   const fullText = allTexts[currentTextIndex];
   const [isReversing, setIsReversing] = useState(false);
 
+  
+
   useEffect(() => {
     let isMounted = true;
     let charIndex = isReversing ? fullText.length - 1 : 0;
