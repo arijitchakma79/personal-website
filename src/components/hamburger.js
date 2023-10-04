@@ -23,7 +23,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
   };
 
   return (
-    <div className={containerClass}>
+    <div className={`${containerClass} fixed`}>
       <div className='flex'>
         <button
           onClick={toggleMenu}
@@ -46,12 +46,12 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
         </div>
       </div>
       {isMenuOpen && (
-        <div className={`fixed w-full ${isDarkMode ? 'bg-gray-900' : 'bg-white'} border-t shadow-md p-2 block`}>
+        <div className={` w-full ${isDarkMode ? 'bg-gray-900' : 'bg-white'} border-t shadow-md p-2 block`}>
           <ul className="block justify-center text-center">
             <li className="mx-4">
                 <NavLink
                   to="/personal-website/"
-                  className={`text-md ${isDarkMode ? "text-gray-800" : "text-gray-800"} hover:underline`}
+                  className={`text-md ${isDarkMode ? "text-gray-200" : "text-gray-800"} hover:underline`}
                   onClick={toggleMenu} // Close the menu when a link is clicked
                 >
                   Home
@@ -60,7 +60,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             <li className="mx-4">
               <NavLink
                 to="/personal-website/projects"
-                className={`text-md ${isDarkMode ? "text-gray-800" : "text-gray-800"} hover:underline`}
+                className={`text-md ${isDarkMode ? "text-gray-200" : "text-gray-800"} hover:underline`}
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
                 Projects
@@ -69,7 +69,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             <li className="mx-4">
               <NavLink
                 to="/personal-website/resume"
-                className={`text-md ${isDarkMode ? "text-gray-800" : "text-gray-800"} hover:underline`}
+                className={`text-md ${isDarkMode ? "text-gray-200" : "text-gray-800"} hover:underline`}
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
                 Resume

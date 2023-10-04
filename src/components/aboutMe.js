@@ -54,7 +54,10 @@ const AboutMe = ({ isDarkMode }) => {
             Interesting facts:
             <ul className="list-disc pl-6">
               <li>
-                I love Football (Soccer) and I'm a huge fan of the Spanish Club Real Madrid FC and Cristiano Ronaldo :)
+                I can speak 5 languages - Chakma, Bangla, English, Hindi and some Urdu.
+              </li>
+              <li>
+                I love Football (Soccer) and I'm a huge fan of the Spanish Club Real Madrid FC  :)
               </li>
               <li>
                 During high school, I founded a non-profit organization aimed at addressing food disparities in my community. Through this initiative,
