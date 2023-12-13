@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ead965e.css",
-    "main.js": "/static/js/main.670761e3.js",
+    "main.css": "/static/css/main.fc007c8c.css",
+    "main.js": "/static/js/main.950e5fe3.js",
     "static/media/drexelAi.png": "/static/media/drexelAi.3766f2d04a359982fd75.png",
     "static/media/myImage.jpg": "/static/media/myImage.758b27e4a43db14c4975.jpg",
     "static/media/thriftHub.png": "/static/media/thriftHub.5c229c3dec9eebc7320b.png",
@@ -17,11 +17,11 @@
     "static/media/JavaScript.png": "/static/media/JavaScript.63cbfafdcf1063d82a23.png",
     "static/media/Cpp.png": "/static/media/Cpp.ccf711d17ee9e16c8728.png",
     "index.html": "/index.html",
-    "main.0ead965e.css.map": "/static/css/main.0ead965e.css.map",
-    "main.670761e3.js.map": "/static/js/main.670761e3.js.map"
+    "main.fc007c8c.css.map": "/static/css/main.fc007c8c.css.map",
+    "main.950e5fe3.js.map": "/static/js/main.950e5fe3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ead965e.css",
-    "static/js/main.670761e3.js"
+    "static/css/main.fc007c8c.css",
+    "static/js/main.950e5fe3.js"
   ]
 }
