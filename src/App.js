@@ -34,9 +34,9 @@ function App() {
           <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} name={clubData.main.name} />
         )}
         <Routes>
-          <Route path="/personal-website/" element={<HomePage isDarkMode={isDarkMode} />} />
-          <Route path="/personal-website/projects" element={<ProjectPage isDark={isDarkMode}/>} />
-          <Route path="/personal-website/resume" element={<ResumePage isDark={isDarkMode}/>} />
+          <Route path="/" element={<HomePage isDarkMode={isDarkMode} />} />
+          <Route path="/projects" element={<ProjectPage isDark={isDarkMode}/>} />
+          <Route path="/resume" element={<ResumePage isDark={isDarkMode}/>} />
         </Routes>
         <Footer isDarkMode={isDarkMode} className="fixed bottom-0 w-full" />
       </div>
