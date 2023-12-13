@@ -35,10 +35,10 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             <p style={textStyle} className={`text-sm ${menuTextColorClass}`}>{name}</p>
         </div>
         <div className="flex ml-auto items-center">
-          <div className={`border ${isDarkMode ? 'border-white' : 'border-white'} rounded-3xl ml-2 px-2`}>
+          <div className={` ml-2 px-2`}>
             <button
               onClick={toggleDarkMode}
-              className={`block p-2 text-md ${darkModeTextColorClass} hover:text-white`}
+              className={`bg-gray-700 rounded-xl block p-2 text-md ${darkModeTextColorClass} hover:text-blue`}
             >
               {isDarkMode ? 'Light' : 'Dark'}
             </button>
@@ -50,7 +50,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
           <ul className="block justify-center text-center">
             <li className="mx-4">
                 <NavLink
-                  to="/personal-website/"
+                  to="/"
                   className={`text-md ${isDarkMode ? "text-gray-200" : "text-gray-800"} hover:underline`}
                   onClick={toggleMenu} // Close the menu when a link is clicked
                 >
@@ -59,7 +59,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             </li>
             <li className="mx-4">
               <NavLink
-                to="/personal-website/projects"
+                to="/projects"
                 className={`text-md ${isDarkMode ? "text-gray-200" : "text-gray-800"} hover:underline`}
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
@@ -68,7 +68,7 @@ function HamburgerMenu({ name, isDarkMode, toggleDarkMode }) {
             </li>
             <li className="mx-4">
               <NavLink
-                to="/personal-website/resume"
+                to="/resume"
                 className={`text-md ${isDarkMode ? "text-gray-200" : "text-gray-800"} hover:underline`}
                 onClick={toggleMenu} // Close the menu when a link is clicked
               >
